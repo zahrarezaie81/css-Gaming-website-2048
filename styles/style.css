@@ -1,8 +1,8 @@
 /* 1. don't modify this style */
-* {
+body{
+  width: 1440px;
   padding: 0;
   margin: 0;
-
   box-sizing: border-box;
 }
 
@@ -10,11 +10,79 @@
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
   --black-700: #000;
+  --primary : #3B2A9F;
+  --white : #FFFFFF;
+  --secondary :#FA8305;
+
+
 }
 /* 3. and we use it like this */
 .elementOne {
   /* var(--"somekey-attr") */
   background-color: var(--black-700);
 }
+.header{
+  background-color:var(--primary);
+  height: 100px;
+  width: 1438px;
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-right{
+  width: 505.41;
+  height: 41.34px;
+  margin-bottom: 26.66px;
+  margin-top: 32px;
+  font-family:'Poppins';
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 59.18px;
+  margin-right: 59.18px;
+  display: flex;
+  flex-direction: row;
+  gap: 36.13px;
+}
+.header-right-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 88px;
+  align-items: center;
+}
+.header-right-menu a{
+  text-decoration: none;
+  color: var(--white);
+}
 
-/* good luck */
+#logo{
+  font-family:'Poppins';
+  font-weight: 800px;
+  font-size: 29px;
+  line-height: 44.51px;
+  width: 81.93px;
+  height: 45px;
+  margin-left: 58.95px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+#light-button{
+  font-family:'Poppins';
+  font-weight: 400px;
+  font-size: 13px;
+  line-height: 19.5px;
+  background-color: var(--secondary);
+  width: 131.66px;
+  height: 41.34px;
+  border-radius: 6px;
+  border: #FA8305;
+  color: var(--white);
+}
+a.header-right-menu:active{
+  color: #000;
+}
+#aboutus-span{
+  width: 74.85px;
+}
