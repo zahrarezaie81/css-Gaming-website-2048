@@ -1,4 +1,13 @@
 /* 1. don't modify this style */
+@font-face {
+  font-family: Poppins;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+
+*{
+  font-family: Poppins;
+}
 body{
   width: 1440px;
   padding: 0;
@@ -22,6 +31,7 @@ body{
   background-color: var(--black-700);
 }
 .header{
+  position: fixed;
   background-color:var(--primary);
   height: 100px;
   width: 1438px;
@@ -35,8 +45,7 @@ body{
   height: 41.34px;
   margin-bottom: 26.66px;
   margin-top: 32px;
-  font-family:'Poppins';
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   margin-left: 59.18px;
@@ -58,8 +67,6 @@ body{
 }
 
 #logo{
-  font-family:'Poppins';
-  font-weight: 800px;
   font-size: 29px;
   line-height: 44.51px;
   width: 81.93px;
@@ -69,7 +76,6 @@ body{
   margin-bottom: 30px;
 }
 #light-button{
-  font-family:'Poppins';
   font-weight: 400px;
   font-size: 13px;
   line-height: 19.5px;
@@ -80,9 +86,92 @@ body{
   border: #FA8305;
   color: var(--white);
 }
-a.header-right-menu:active{
-  color: #000;
+.header-right-menu a:active{
+  border-bottom: 2px solid var(--secondary);
 }
 #aboutus-span{
   width: 74.85px;
 }
+main{
+  background-color: var(--primary);
+}
+.first-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+#first-section-imag{
+  width: 806px;
+  height: 761px;
+  margin-left: 145px;
+}
+#img-cry1{
+  width: 101px;
+  height: 99px;
+  position: absolute;
+  left: 828px;
+  top: 202px;
+}
+#img-unreal{
+  width: 59px;
+  height: 64px;
+  position: absolute;
+  top: 218px;
+  left: 1168px;
+}
+#img-unity{
+  width: 96px;
+  height: 30px;
+  position: absolute;
+  top: 409px;
+  left: 649px;
+}
+
+.first-section-left{
+  margin-left: 147px;
+  margin-top: 203px;
+  height: 409px;
+  width:max-content;
+  margin-top: 203px;
+  margin-left: 147px;
+  
+}
+#first-section-left-p1{
+  font-weight: 700;
+  width: 479px;
+}
+#first-section-left-p1{
+  color: var(--secondary);
+  font-size: 20px;
+}
+#first-section-left-p2{
+  color: var(--white);
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 17px;
+
+}
+#first-section-left-p3{
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 26px;
+
+}
+#first-section-left-btn{
+  width: 195px;
+  height: 53px;
+  margin-top: 48px;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  color: var(--white);
+}
+#first-section-left-btn a{
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--white);
+}
+
+
