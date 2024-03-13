@@ -200,7 +200,7 @@ main{
   font-size: 31px;
 
 }
-.second-section button{
+#second-section-button{
   width: 139px;
   height: 57px;
   font-family: Rubik;
@@ -269,6 +269,94 @@ main{
   margin-right: 306px;
   margin-top: 129px;
 
+}
+.third-section{
+  width: 545px;
+  height: 173px;
+  margin-left: 148px;
+  color: var(--white);
+}
+
+.third-section span{
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 67px;
+}
+.third-section p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 32px;
+}
+#rect4{
+  width: 1146px;
+  height: 462px;
+  border-radius: 5px;
+  margin-top: 46px;
+  margin-left: 148px;
+  margin-left: 146px;
+  z-index: 1;
+  position: relative;
+}
+#group21{
+  width: 196px;
+  height: 154px;
+  position: absolute;
+  top: 1797px;
+  left: 972px;
+}
+.fourth-section{
+  width: 1440px;
+  height: 678px;
+}
+.fourth-section-top{
+  margin-top: 148px;
+  color: var(--white);
+}
+.fourth-section-top span{
+  width: 305px;
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 568px;
+  margin-right: 567px;
+}
+.fourth-section-top p{
+  width: 497px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 472px;
+  margin-right: 470px;
+}
+.fourth-section-buttom{
+  margin-top: 71px;
+  margin-left: 136px;
+  margin-right: 134px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+.fourth-section-buttom-sec{
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+
+}
+#fourth-section-button{
+  margin-left: 651px;
+  margin-right: 650px;
+  margin-top: 72px;
+  width: 139px;
+  height: 57px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: var(--primary2-100);
+  border: 2px solid var(--primary2-100);
+  border-radius: 10px;
+  color: var(--white);
+}
+.fourth-section-buttom2{
+  background-color: var(--primary);
 }
 
 
