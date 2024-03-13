@@ -4,6 +4,11 @@
   src: url(assets/fonts/Poppins-Regular.ttf);
   src: url(assets/fonts/Poppins-Bold.ttf);
 }
+@font-face {
+  font-family: Rubik;
+  src: url(assets/fonts/Rubik-Bold.ttf);
+  src: url(assets/fonts/Medium.ttf);
+}
 
 *{
   font-family: Poppins;
@@ -22,6 +27,7 @@ body{
   --primary : #3B2A9F;
   --white : #FFFFFF;
   --secondary :#FA8305;
+  --primary2-100 : #5141AA;
 
 
 }
@@ -67,6 +73,7 @@ body{
 }
 
 #logo{
+  font-family: Poppins;
   font-size: 29px;
   line-height: 44.51px;
   width: 81.93px;
@@ -129,7 +136,6 @@ main{
 
 .first-section-left{
   margin-left: 147px;
-  margin-top: 203px;
   height: 409px;
   width:max-content;
   margin-top: 203px;
@@ -173,5 +179,97 @@ main{
   font-size: 16px;
   color: var(--white);
 }
+.second-section{
+  margin-top: 132px;
+}
+.second-section-top{
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 603px;
+  margin-left: 148px;
+  margin-right: 146px;
+  align-items: center;
+}
+.second-section-top p{
+  width: 405px;
+  color: var(--white);
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 31px;
+
+}
+.second-section button{
+  width: 139px;
+  height: 57px;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: var(--primary2-100);
+  border: 2px solid var(--primary2-100);
+  border-radius: 10px;
+  color: var(--white);
+}
+.second-section-buttom{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 47px;
+  margin-left: 110px;
+  margin-right: 146px;
+  margin-top: 57px;
+}
+.second-section-buttom ul{
+  display: flex;
+  flex-direction: column;
+}
+.second-section-buttom2-li{
+  position: relative;
+
+}
+.second-section-buttom-sec2{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9px;
+  color: var(--white);
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#sec1-img{
+  width: 251px;
+  height: 277px;
+
+}
+#sec1-img:hover{
+  opacity: 0.5;
+}
+.followers:hover + .fire {
+  transform: scale(2); 
+}
+.fire{
+  transition: transform 0.3s ease;
+}
+.followers{
+  cursor: pointer;
+}
+
+#second-section-lorem{
+  width: 826px;
+  height: 132px;
+  font-weight: 600;
+  font-size: 35px;
+  color: var(--white);
+  margin-left: 308px;
+  margin-right: 306px;
+  margin-top: 129px;
+
+}
+
 
 
