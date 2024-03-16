@@ -1,0 +1,64 @@
+.header{
+    position: fixed;
+    z-index: 2;
+    background-color:var(--primary);
+    height: 100px;
+    width: 1438px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-right{
+    width: 505.41;
+    height: 41.34px;
+    margin-bottom: 26.66px;
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 59.18px;
+    margin-right: 59.18px;
+    display: flex;
+    flex-direction: row;
+    gap: 36.13px;
+  }
+  .header-right-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 88px;
+    align-items: center;
+  }
+  .header-right-menu a{
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  #logo{
+    font-family: Poppins;
+    font-size: 29px;
+    line-height: 44.51px;
+    width: 81.93px;
+    height: 45px;
+    margin-left: 58.95px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  #light-button{
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 19.5px;
+    background-color: var(--secondary);
+    width: 131.66px;
+    height: 41.34px;
+    border-radius: 6px;
+    border: #FA8305;
+    color: var(--white);
+  }
+  .header-right-menu a:active{
+    border-bottom: 2px solid var(--secondary);
+  }
+  #aboutus-span{
+    width: 74.85px;
+  }
