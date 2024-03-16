@@ -4,16 +4,20 @@ footer{
     height: 376px;
     width: 1440px;
   }
+  .parent{
+    width: 1440;
+    height: 280px;
+  }
   .seventh-section{
     color: var(--white);
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 1440px;
-    height: 300px;
-    padding-left: 60px;
-    padding-right: 387px;
+    margin-right: 387px;
+    height: 250px;
     margin-top: 163px;
+    margin-bottom: 20px;
   }
   .seventh-section-1{
     list-style: none;
