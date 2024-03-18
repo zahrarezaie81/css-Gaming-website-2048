@@ -34,7 +34,7 @@
     text-decoration: none;
     color: var(--white);
   }
-  
+
   #logo{
     font-family: Poppins;
     font-size: 29px;
@@ -55,9 +55,6 @@
     border-radius: 6px;
     border: #FA8305;
     color: var(--white);
-  }
-  .header-right-menu a:active{
-    border-bottom: 2px solid var(--secondary);
   }
   #aboutus-span{
     width: 74.85px;

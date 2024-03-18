@@ -1,14 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url(assets/fonts/Poppins-Regular.ttf);
-    src: url(assets/fonts/Poppins-Bold.ttf);
-  }
-  @font-face {
-    font-family: Rubik;
-    src: url(assets/fonts/Rubik-Bold.ttf);
-    src: url(assets/fonts/Medium.ttf);
-  }
-  
   *{
     font-family: Poppins;
   }
@@ -33,8 +22,24 @@
   .elementOne {
     background-color: var(--black-700);
   }
-  
-  @import "header.css";
+  #line{
+    width: 30.97px;
+    height: 4px;
+    background-color: #FA8305;
+    border-radius: 20px;
+  }
+  #dot{
+    width: 5px;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #FA8305;
+  }
+  .bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    margin-top: 6.8px;
+  }
 
   main{
     background-color: var(--primary);
@@ -274,6 +279,7 @@
   width: 1264px;
   margin-right: 66px;
   margin-left: 110px;
+  margin-bottom: 157px;
 }
 .fourth-section-sec1{
   background-color: var(--black);
@@ -282,21 +288,21 @@
   border-radius: 20px;
   color: var(--white);
 }
-#fourth-section-img{
+.fourth-section-img{
   margin-top: 35px;
   margin-left: 86px;
   margin-right: 86px;
   width: 123px;
   height: 123px;
 }
-#fourth-section-1{
+.fourth-section-1{
   font-weight: 600;
   font-size: 19px;
   margin-left: 96px;
   margin-right: 93px;
   clear: both;
 }
-#fourth-section-2{
+.fourth-section-2{
   font-family: 300;
   font-size: 16px;
   margin-left: 129px;
@@ -325,4 +331,3 @@
   border-radius: 20px;
   color: var(--white);
 }
-  

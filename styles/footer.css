@@ -1,99 +1,170 @@
+*{
+  font-family: Poppins;
+}
+body{
+  width: 1440px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  --black-700: #000;
+  --primary : #3B2A9F;
+  --white : #FFFFFF;
+  --secondary :#FA8305;
+  --primary2-100 : #5141AA;
+  --gray : #898989;
+  --purple: #B000DC1C;
+  --red: #DC42001C;
+  --green: #00DC8D1C;
+  --black: #1C140F;
+  --gray2: #D2D2D2;
+}
+
+.elementOne {
+  background-color: var(--black-700);
+}
 footer{
-    background-color: black;
-    height: 376px;
-    width: 1440px;
-  }
-  .parent{
-    width: 1440;
-    height: 280px;
-  }
-  .seventh-section{
-    color: var(--white);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 1440px;
-    margin-right: 387px;
-    height: 250px;
-    margin-top: 163px;
-    margin-bottom: 20px;
-  }
-  .seventh-section-1{
-    list-style: none;
-    width: max-content;
-  }
-  #seventh-section-1-span-1{
-    font-family: Poppins;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 36.84px;
-  }
-  .seventh-section-1 p{
-    width: 372px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-  }
-  .seventh-section-2{
-    list-style: none;
-    margin-right: 144px;
-    margin-left: 78px;
-  }
-  #seventh-section-2-span{
-    font-weight: 500;
-    font-size: 17px;
-  }
-  .seventh-section-2 p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 29.81px;
-  }
-  .seventh-section-3{
-    list-style: none;
-    padding-bottom: 15px;
-  }
-  #seventh-section-3-span{
-    font-weight: 500;
-    font-size: 17px;
-    margin-bottom: 15px;
-  }
-  .copyright{
-    color: #ffff;
-    margin-top: 0px;
-    width: 1440px;
-    height: 83px;
-    background-color: #000;
-    border-top: 1px solid #D2D2D2;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-size: 13px;
-  }
-
-  #img1{
-    position: absolute;
-    top: 4120px;
-    left: 1135px;
-  }
-  #img2{
-    position: absolute;
-    top: 4120px;
-    left: 1185px;
-  }
-  #img3{
-    position: absolute;
-    top: 4120px;
-    left: 1235px;
-  }
-  #img4{
-    position: absolute;
-    top: 4120px;
-    left: 1285px;
-  }
-
-  
+  width: 1440px;
+  height: 376px;
+  background-color: var(--black-700);
+  margin-top: 163px;
+ }
+ .p1{
+  width: 68px;
+  height: 37px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 36.84px;
+  color: #FFFFFF;
+}
+.p2{
+  width: 372px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.p3{
+  width: 196px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+.p1{
+  width: 76px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25.5px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.ul-li{
+  width: 372px;
+  height: 117px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29.81px;
+  color: #FFFFFF;
+  list-style-type: none;
+  margin-top: 15px ;
+  bottom: -30px;
+  position: absolute;
+  left: -40px;
+}
+.p1{
+  width: 94px;
+  height: 26px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25.5px;
+  color: #FFFFFF;
+}
+.p2{
+  width: 282px;
+  height: 76px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+.p3{
+  width: 141px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-top: 11px;
+}
+.footer-sec1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-sec1-4{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  margin-top: 196px;
+  position: absolute;
+  left: 1136px;
+}
+.footer-sec1-4 img{
+  width: 60px;
+  height: 60px;
+}
+.footer-sec1-1{
+  margin-top: 48px;
+  height: 161px;
+  margin-bottom: 53px;
+  position: absolute;
+  left: 101px;
+}
+.footer-sec1-2{
+  margin-top: 60px;
+  height: 161px;
+  position: absolute;
+  color: var(--white);
+  left: 551px;
+}
+#about-us{
+  position: absolute;
+  width: 76px;
+}
+.footer-sec1-3{
+  margin-top: 55px;
+  height: 161px;
+  position: absolute;
+  left: 771px;
+}
+footer #copy{
+  color: #FFFFFF;
+  margin-top: 322px;
+  margin-left: 588px;
+  width: 300px;
+  height: 25px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24.78px;
+  white-space: nowrap;
+}
+#copy b{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24.78px;
+}
+#hr{
+  position: relative;
+  bottom: 65px;
+  color: var(--gray2);
+}
