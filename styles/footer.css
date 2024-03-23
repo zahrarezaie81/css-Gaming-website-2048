@@ -31,7 +31,7 @@ footer{
   background-color: var(--black-700);
   margin-top: 163px;
  }
- .p1{
+ .footer-sec1-1 .p1{
   width: 68px;
   height: 37px;
   font-weight: 800;
@@ -39,7 +39,7 @@ footer{
   line-height: 36.84px;
   color: #FFFFFF;
 }
-.p2{
+.footer-sec1-1 .p2{
   width: 372px;
   height: 58px;
   font-weight: 400;
@@ -48,7 +48,7 @@ footer{
   color: #FFFFFF;
   margin-top: 15px;
 }
-.p3{
+.footer-sec1-1 .p3{
   width: 196px;
   height: 23px;
   font-weight: 400;
@@ -57,7 +57,8 @@ footer{
   color: #FFFFFF;
   margin-top: 25px;
 }
-.p1{
+#about-us{
+  position: absolute;
   width: 76px;
   height: 26px;
   font-weight: 500;
@@ -79,7 +80,7 @@ footer{
   position: absolute;
   left: -40px;
 }
-.p1{
+.footer-sec1-3 .p1{
   width: 94px;
   height: 26px;
   font-weight: 500;
@@ -87,7 +88,7 @@ footer{
   line-height: 25.5px;
   color: #FFFFFF;
 }
-.p2{
+.footer-sec1-3 .p2{
   width: 282px;
   height: 76px;
   font-weight: 400;
@@ -96,7 +97,7 @@ footer{
   color: #FFFFFF;
   margin-top: 20px;
 }
-.p3{
+.footer-sec1-3 .p3{
   width: 141px;
   height: 28px;
   font-weight: 400;
@@ -135,10 +136,6 @@ footer{
   position: absolute;
   color: var(--white);
   left: 551px;
-}
-#about-us{
-  position: absolute;
-  width: 76px;
 }
 .footer-sec1-3{
   margin-top: 55px;
